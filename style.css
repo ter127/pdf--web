@@ -16,3 +16,12 @@ main {
   background-size: cover;
   height: 600px;
 }
+
+footer {
+  background-color: rgb(190, 131, 104);
+  color: white;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 13px;
+}
