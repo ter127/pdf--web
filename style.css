@@ -16,3 +16,17 @@ main {
   background-size: cover;
   height: 600px;
 }
+.why {
+  height: 1200px;
+  /* background-color: black; */
+}
+.reasonList {
+  height: 1000px;
+  text-align: center;
+  background-color: rgb(201, 71, 0);
+  margin-top: 30px;
+}
+.whytext {
+  text-align: center;
+  font-size: 50px;
+}
