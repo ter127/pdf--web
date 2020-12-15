@@ -1,11 +1,25 @@
 header {
   position: fixed;
   top: 0px;
-  background-color: black;
-  opacity: 0.7;
+  background-color: rgb(150, 59, 36);
+  opacity: 0.9;
   height: 60px;
   width: 100%;
   z-index: 99999;
+}
+.headbox {
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.menu {
+  position: relative;
+  display: flex;
+  left: 1000px;
+  font-size: 22px;
 }
 main {
   margin-top: 60px;
