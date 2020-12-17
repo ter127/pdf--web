@@ -38,6 +38,7 @@ footer {
   text-align: center;
   line-height: 100px;
   font-size: 13px;
+  display: block;
 }
 /* 인터뷰 */
 .intervew {
@@ -80,3 +81,65 @@ footer {
   text-align: center;
   font-size: 50px;
 }
+
+.team2 {
+  position: relative;
+  display: block;
+  width: 1320px;
+  margin: 0 auto;
+  /* border: 3px solid; */
+}
+
+.box1 {
+  background-color: rgb(168, 89, 65);
+  color: white;
+  width: 600px;
+  height: 400px;
+  padding: 10px;
+  margin: 20px;
+  float: right;
+  border-radius: 50px;
+}
+
+.box2 {
+  background-color: rgb(136, 117, 111);
+  color: white;
+  width: 600px;
+  height: 400px;
+  padding: 10px;
+  margin: 20px;
+  float: right;
+  border-radius: 50px;
+}
+.box3 {
+  background-color: rgb(136, 117, 111);
+  color: white;
+  width: 600px;
+  height: 400px;
+  padding: 10px;
+  margin: 20px;
+  float: right;
+  border-radius: 50px;
+}
+.box4 {
+  background-color: rgb(168, 89, 65);
+  color: white;
+  width: 600px;
+  height: 400px;
+  padding: 10px;
+  margin: 20px;
+  float: right;
+  border-radius: 50px;
+}
+/* .pro {
+  width: 150px;
+  height: 150px;
+  border-radius: 70%;
+  overflow: hidden;
+  position: relative;
+}
+.profile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
