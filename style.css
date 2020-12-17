@@ -15,6 +15,55 @@ header {
   display: flex;
   flex-direction: row;
 }
+.contain {
+  width: 500vw;
+  transition: 0.5s;
+  display: flex;
+}
+.inner {
+  width: 100vw;
+}
+.newsbtn1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: rgb(80, 80, 80);
+  margin: 10px;
+}
+.newsbtn2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: rgb(216, 213, 213);
+  margin: 10px;
+}
+.newsbtn3 {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: rgb(216, 213, 213);
+  margin: 10px;
+}
+.newsbtn4 {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: rgb(216, 213, 213);
+  margin: 10px;
+}
+.newsbtn5 {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: rgb(216, 213, 213);
+  margin: 10px;
+}
+.btnbox {
+  display: inline;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+}
 .menu {
   position: relative;
   display: flex;
@@ -26,9 +75,8 @@ main {
   height: 5000px;
 }
 .news {
-  background: url("팀 소개 배경.jpg") center;
-  background-size: cover;
-  height: 600px;
+  position: relative;
+  text-align: center;
 }
 
 footer {
