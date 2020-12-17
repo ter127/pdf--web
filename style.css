@@ -98,7 +98,7 @@ footer {
   font-size: 30px;
 }
 .why {
-  height: 1200px;
+  height: 1500px;
   margin-top: 30px;
   /* background-color: black; */
 }
@@ -113,7 +113,9 @@ footer {
   text-align: center;
   font-size: 50px;
 }
-
+.team {
+  height: 1000px;
+}
 .team2 {
   position: relative;
   display: block;
