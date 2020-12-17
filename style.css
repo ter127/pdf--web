@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
+
 header {
   position: fixed;
   top: 0px;
   background-color: rgb(150, 59, 36);
-  opacity: 0.9;
+  opacity: 0.7;
   height: 60px;
   width: 100%;
   z-index: 99999;
@@ -10,16 +13,28 @@ header {
 .headbox {
   color: white;
   font-size: 35px;
-  position: absolute;
+  position: relative;
   top: 15px;
   display: flex;
   flex-direction: row;
 }
+.logo {
+  margin-left: 20px;
+  font-family: "Gugi", cursive;
+  line-height: 30px;
+  font-size: 35px;
+}
 .menu {
-  position: relative;
+  position: absolute;
+  right: 30px;
   display: flex;
-  left: 1000px;
-  font-size: 22px;
+  flex-direction: row;
+  font-size: 15px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.menubtn {
+  margin: 10px;
+  margin-top: 0;
 }
 main {
   margin-top: 60px;
@@ -38,29 +53,45 @@ footer {
   text-align: center;
   line-height: 100px;
   font-size: 13px;
-  display: block;
+  font-family: "Noto Sans KR", sans-serif;
 }
 /* 인터뷰 */
 .intervew {
   padding-top: 50px;
 }
 #i1 {
+  white-space: nowrap;
   text-align: center;
-  font-size: 23px;
+  font-size: 25px;
   padding: 40px;
 }
 #n1 {
-  text-align: right;
-  font-size: 18px;
-  padding-right: 350px;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 20px;
+}
+#inter1 {
+  padding-top: 20px;
+}
+#inter2 {
+  padding-top: 250px;
+}
+/* 그래프 */
+.graph {
+  height: 500px;
+  width: 1500px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 100px;
 }
 /* false */
 .false {
+  white-space: nowrap;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 #f1 {
-  font-size: 25px;
+  font-size: 30px;
 }
 #f2 {
   padding-top: 200px;
@@ -75,9 +106,10 @@ footer {
   height: 1000px;
   text-align: center;
   background-color: rgb(201, 71, 0);
-  margin-top: 30px;
+  margin-top: 100px;
 }
 .whytext {
+  padding-top: 250px;
   text-align: center;
   font-size: 50px;
 }
