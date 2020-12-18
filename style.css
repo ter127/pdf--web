@@ -35,9 +35,8 @@ header {
 .menubtn {
   margin: 10px;
   margin-top: 0;
-  font-size:15px;
-  cursor:pointer;
-  
+  font-size: 15px;
+  cursor: pointer;
 }
 main {
   margin-top: 60px;
@@ -71,16 +70,15 @@ main {
 }
 .newsbtn4 {
   background-color: rgb(216, 213, 213);
-
 }
 .newsbtn5 {
   background-color: rgb(216, 213, 213);
 }
-.newsbtn{
+.newsbtn {
   width: 15px;
   height: 15px;
   border-radius: 10px;
-  margin:10px;
+  margin: 10px;
 }
 /* 인터뷰 */
 .intervew {
@@ -144,7 +142,7 @@ main {
   display: block;
   width: 1320px;
   margin: 0 auto;
-  overflow:hidden;
+  overflow: hidden;
 }
 .box1 {
   background-color: rgb(168, 89, 65);
@@ -170,8 +168,8 @@ main {
   width: 200px;
   height: 200px;
   overflow: hidden;
-  float:left;
-  margin:10px;
+  float: left;
+  margin: 10px;
   position: relative;
 }
 .profile {
