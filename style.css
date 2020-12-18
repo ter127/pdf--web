@@ -27,39 +27,26 @@ header {
   width: 100vw;
 }
 .newsbtn1 {
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
-  background-color: rgb(80, 80, 80);
-  margin: 10px;
+  background-color: red;
 }
 .newsbtn2 {
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
   background-color: rgb(216, 213, 213);
-  margin: 10px;
 }
 .newsbtn3 {
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
   background-color: rgb(216, 213, 213);
-  margin: 10px;
 }
 .newsbtn4 {
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
   background-color: rgb(216, 213, 213);
-  margin: 10px;
+
 }
 .newsbtn5 {
+  background-color: rgb(216, 213, 213);
+}
+.newsbtn{
   width: 15px;
   height: 15px;
   border-radius: 10px;
-  background-color: rgb(216, 213, 213);
-  margin: 10px;
+  margin:10px;
 }
 .btnbox {
   display: inline;
