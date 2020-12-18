@@ -24,6 +24,7 @@
     </div>
   </header>
   <main>
+    <div class="inner-container">
     <div class="news" style="overflow: hidden" >
       <div class="contain">
         <div class="inner" onclick="window.scrollTo(0, 0)"><img src="슬라이더1.jpg" alt="" /></div>
@@ -68,39 +69,98 @@
     </div>
     <div class="why">
       <div class="whytext">왜 늦게 알아챌까요?</div>
+      <div style="overflow: hidden;">
       <div class="reasonList">
-        <img src="원인리스트 1.jpg" height="1000px" />
+        <div class="reasonListelement">
+          <img src="원인리스트 1.jpg"/>
+        </div>
+        <div class="reasonListelement">
+          <img src="원인리스트 1.jpg"/>
+        </div>
+        <div class="reasonListelement">
+          <img src="원인리스트 1.jpg"/>
+        </div>
       </div>
+    </div>
     </div>
 
     <div class="team">
+      <div class="inner-container">
+      <div class="teamtitle"><strong>우리는 누구인가요?</strong></div>
       <div class="team2">
-
-        <div class="box1">
+        <div class="containBox">
+        <div id="box.1" class="box1">
           우유
-          <div class="pro">
-            <!-- <img class="profile" src="우유 프로필.png"> -->
-          </div>
+          <!-- <div class="pro">
+            <img class="profile" src="우유 프로필.png">
+          </div> -->
         </div>
-        <div class="box2">
+      </div>
+        <div class="containBox">
+        <div id="box.2" class="box2">
           주디
         </div>
-
-        <div class="box2">
+      </div>
+      <div class="containBox">
+        <div id="box.3" class="box2">
           양파
         </div>
-        <div class="box1">
+      </div>
+      <div class="containBox">
+        <div id="box.4" class="box1">
           테르
         </div>
       </div>
-
+      </div>
     </div>
+    </div>
+  </div>
+  <script>
+    var box1 = document.getElementById('box.1')
+    var box2 = document.getElementById('box.2')
+    var box3 = document.getElementById('box.3')
+    var box4 = document.getElementById('box.4')
+    function boxover(id) {
+    id.style.width = '580px'
+    id.style.height = '316px'
+    }
+    function boxout(id) {
+      id.style.width = '550px'
+      id.style.height = '300px'
+    }
+   box1.addEventListener('mouseover', function(){
+     boxover(box1)
+   })
+   box2.addEventListener('mouseover', function(){
+     boxover(box2)
+   })
+   box3.addEventListener('mouseover', function(){
+     boxover(box3)
+   })
+   box4.addEventListener('mouseover', function(){
+     boxover(box4)
+   })
+   box1.addEventListener('mouseout', function(){
+     boxout(box1)
+   })
+   box2.addEventListener('mouseout', function(){
+     boxout(box2)
+   })
+   box3.addEventListener('mouseout', function(){
+     boxout(box3)
+   })
+   box4.addEventListener('mouseout', function(){
+     boxout(box4)
+   })
+  </script>
   </main>
   <footer>
+    <div class="inner-container">
     <strong> (팀)PDF</strong>
     &nbsp;&nbsp;주소 | 서울특별시 종로구 대학로 116 4층 (공공일호)
     &nbsp;&nbsp; 메일 | teampdf@futureclass.net
     &nbsp;&nbsp; 전화 | 010-3201-0260
+  </div>
   </footer>
 </body>
 
