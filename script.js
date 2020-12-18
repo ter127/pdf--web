@@ -95,8 +95,19 @@ window.onload = function () {
     // function teamso() {
     //     window.scrollTo(0, 1000);
     // }
-
-    document.querySelector(".moonsang").addEventListener('click', function () {
-        window.scrollTo(0, 1000);
+    document.getElementById("logo").addEventListener('click', function () {
+        window.scrollTo(0, 0);
+    })
+    document.getElementById("mb1").addEventListener('click', function () {
+        window.scrollTo(0, 1250);
+    })
+    document.getElementById("mb2").addEventListener('click', function () {
+        window.scrollTo(0, 2910);
+    })
+    document.getElementById("mb3").addEventListener('click', function () {
+        window.scrollTo(0, 0);
+    })
+    document.getElementById("mb4").addEventListener('click', function () {
+        window.scrollTo(0, 0);
     })
 }
