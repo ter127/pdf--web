@@ -99,10 +99,10 @@ window.onload = function () {
         window.scrollTo(0, 0);
     })
     document.getElementById("mb1").addEventListener('click', function () {
-        window.scrollTo(0, 1250);
+        window.scrollTo(0, 1100);
     })
     document.getElementById("mb2").addEventListener('click', function () {
-        window.scrollTo(0, 2910);
+        window.scrollTo(0, 2500);
     })
     document.getElementById("mb3").addEventListener('click', function () {
         window.scrollTo(0, 0);
