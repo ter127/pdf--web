@@ -35,6 +35,8 @@ header {
 .menubtn {
   margin: 10px;
   margin-top: 0;
+  font-size: 15px;
+  cursor: pointer;
 }
 main {
   margin-top: 60px;
@@ -68,16 +70,15 @@ main {
 }
 .newsbtn4 {
   background-color: rgb(216, 213, 213);
-
 }
 .newsbtn5 {
   background-color: rgb(216, 213, 213);
 }
-.newsbtn{
+.newsbtn {
   width: 15px;
   height: 15px;
   border-radius: 10px;
-  margin:10px;
+  margin: 10px;
 }
 /* 인터뷰 */
 .intervew {
@@ -141,7 +142,7 @@ main {
   display: block;
   width: 1320px;
   margin: 0 auto;
-  overflow:hidden;
+  overflow: hidden;
 }
 .box1 {
   background-color: rgb(168, 89, 65);
@@ -163,36 +164,18 @@ main {
   float: right;
   border-radius: 50px;
 }
-.box3 {
-  background-color: rgb(136, 117, 111);
-  color: white;
-  width: 600px;
-  height: 400px;
-  padding: 10px;
-  margin: 20px;
-  float: right;
-  border-radius: 50px;
-}
-.box4 {
-  background-color: rgb(168, 89, 65);
-  color: white;
-  width: 600px;
-  height: 400px;
-  padding: 10px;
-  margin: 20px;
-  float: right;
-  border-radius: 50px;
-}
 .pro {
-  width: 150px;
-  height: 150px;
-  border-radius: 70%;
+  width: 200px;
+  height: 200px;
   overflow: hidden;
+  float: left;
+  margin: 10px;
   position: relative;
 }
 .profile {
   width: 100%;
   height: 100%;
+  border-radius: 70%;
   object-fit: cover;
 }
 footer {
@@ -203,3 +186,4 @@ footer {
   line-height: 100px;
   font-size: 13px;
   font-family: "Noto Sans KR", sans-serif;
+}
