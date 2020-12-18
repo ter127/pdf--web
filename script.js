@@ -1,4 +1,42 @@
 window.onload = function(){
+    var mb1=  document.getElementById('mb1')
+    var mb2=  document.getElementById('mb2')
+    var mb3=  document.getElementById('mb3')
+    var mb4=  document.getElementById('mb4')
+    mb1.addEventListener('mouseover', function(){
+    mb1.style.color = "red";
+    mb1.style.fontSize = "17px";
+    });
+    mb1.addEventListener('mouseout', function(){
+    mb1.style.color = "white";
+    mb1.style.fontSize = "15px";
+    });
+    mb2.addEventListener('mouseover', function(){
+    mb2.style.color = "red";
+    mb2.style.fontSize = "17px";
+    });
+    mb2.addEventListener('mouseout', function(){
+    mb2.style.color = "white";
+    mb2.style.fontSize = "15px";
+    });
+    mb3.addEventListener('mouseover', function(){
+    mb3.style.color = "red";
+    mb3.style.fontSize = "17px";
+    });
+    mb3.addEventListener('mouseout', function(){
+    mb3.style.color = "white";
+    mb3.style.fontSize = "15px";
+    });
+    mb4.addEventListener('mouseover', function(){
+    mb4.style.color = "red";
+    mb4.style.fontSize = "17px";
+    });
+    mb4.addEventListener('mouseout', function(){
+    mb4.style.color = "white";
+    mb4.style.fontSize = "15px";
+    });
+
+
     var contain = document.querySelector('.contain');
     var trans = [
         {'classname':'newsbtn1',
