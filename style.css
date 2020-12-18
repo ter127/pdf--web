@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
-
+.inner-container {
+  width: 1300px;
+  margin: 0 auto;
+}
 header {
   position: fixed;
   top: 0px;
@@ -44,37 +47,53 @@ main {
 .news {
   position: relative;
   text-align: center;
+  width: 1300px;
+  margin: 0 auto;
 }
 .contain {
-  width: 500vw;
+  width: 6500px;
   transition: 0.5s;
   display: flex;
 }
 .inner {
-  width: 100vw;
+  width: 1300px;
 }
 .btnbox {
-  display: inline;
   position: absolute;
-  bottom: 10px;
   display: flex;
+  bottom: 30px;
+  left: 552.5px;
 }
 .newsbtn1 {
-  background-color: red;
+  background-color: rgb(131, 131, 131);
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin: 10px;
 }
 .newsbtn2 {
-  background-color: rgb(216, 213, 213);
+  background-color: rgb(131, 131, 131);
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin: 10px;
 }
 .newsbtn3 {
-  background-color: rgb(216, 213, 213);
+  background-color: rgb(131, 131, 131);
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin: 10px;
 }
 .newsbtn4 {
-  background-color: rgb(216, 213, 213);
+  background-color: rgb(131, 131, 131);
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin: 10px;
 }
 .newsbtn5 {
-  background-color: rgb(216, 213, 213);
-}
-.newsbtn {
+  background-color: rgb(131, 131, 131);
   width: 15px;
   height: 15px;
   border-radius: 10px;
@@ -104,7 +123,7 @@ main {
 /* 그래프 */
 .graph {
   height: 500px;
-  width: 1500px;
+  width: 1300px;
   border: 1px solid black;
   margin: auto;
   margin-top: 100px;

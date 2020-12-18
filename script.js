@@ -6,6 +6,15 @@ window.onload = function () {
     mb1.addEventListener('mouseover', function () {
         mb1.style.color = "red";
         mb1.style.fontSize = "17px";
+        setInterval(function(){
+            if (-5200<a) {
+                a = a - 1300
+                contain.style.transform = 'translate('+a+'px)'
+            }
+            else if (a == - 5200){
+                contain.style.transform = 'translate(0px)'
+            }
+            },5000)
     });
     mb1.addEventListener('mouseout', function () {
         mb1.style.color = "white";
@@ -38,63 +47,21 @@ window.onload = function () {
 
 
     var contain = document.querySelector('.contain');
-    var trans = [
-        {
-            'classname': 'newsbtn1',
-            'translate': '0'
-        },
-        {
-            'classname': 'newsbtn2',
-            'translate': '-100'
-        },
-        {
-            'classname': 'newsbtn3',
-            'translate': '-200'
-        },
-        {
-            'classname': 'newsbtn4',
-            'translate': '-300'
-        },
-        {
-            'classname': 'newsbtn5',
-            'translate': '-400'
-        }
-    ]
-    var a = 0
-    function slid() {
-        if (a < 0) {
-            a = a - 100
-            contain.style.transform = 'translate(' + a + 'vw)'
-        }
-        if (a == -400) {
-            contain.style.transform = 'translate(100vw)'
-        }
-    }
-    setTimeout(slid, 5000)
-
-    for (var index in trans) {
-        var paragraph = document.createElement("div");
-        document.getElementById("btnbox").appendChild(paragraph);
-        paragraph.classList.add('newsbtn')
-        paragraph.classList.add(trans[index]['classname'])
-        paragraph.addEventListener('click', function () {
-            contain.style.transform = 'translate(' + trans[index]['translate'] + 'vw)'
-        })
-    }
-
-    // 스크롤 이동
-    // function moonsang() {
-    //     window.scrollTo(0, 100);
-    // }
-    // function moonjung() {
-    //     window.scrollTo(0, 400);
-    // }
-    // function moongum() {
-    //     window.scrollTo(0, 700);
-    // }
-    // function teamso() {
-    //     window.scrollTo(0, 1000);
-    // }
+    document.querySelector('.newsbtn1').addEventListener('click',function(){
+        contain.style.transform = 'translate(0)'
+    })
+    document.querySelector('.newsbtn2').addEventListener('click',function(){
+        contain.style.transform = 'translate(-1300px)'
+    })
+    document.querySelector('.newsbtn3').addEventListener('click',function(){
+        contain.style.transform = 'translate(-2600px)'
+    })
+    document.querySelector('.newsbtn4').addEventListener('click',function(){
+        contain.style.transform = 'translate(-3900px)'
+    })
+    document.querySelector('.newsbtn5').addEventListener('click',function(){
+        contain.style.transform = 'translate(-5200px)'
+    })
     document.getElementById("logo").addEventListener('click', function () {
         window.scrollTo(0, 0);
     })
@@ -110,4 +77,14 @@ window.onload = function () {
     document.getElementById("mb4").addEventListener('click', function () {
         window.scrollTo(0, 0);
     })
-}
+    var a = 0
+    setInterval(function(){
+        if (-5200<a) {
+            a = a - 1300
+            contain.style.transform = 'translate('+a+'px)'
+        }
+        else if (a == - 5200){
+            contain.style.transform = 'translate(0px)'
+        }
+        },5000)
+    }
