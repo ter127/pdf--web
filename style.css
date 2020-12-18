@@ -18,6 +18,34 @@ header {
   display: flex;
   flex-direction: row;
 }
+.logo {
+  margin-left: 20px;
+  font-family: "Gugi", cursive;
+  line-height: 30px;
+  font-size: 35px;
+}
+.menu {
+  position: absolute;
+  right: 30px;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.menubtn {
+  margin: 10px;
+  margin-top: 0;
+  font-size:15px;
+  cursor:pointer;
+  
+}
+main {
+  margin-top: 60px;
+}
+.news {
+  position: relative;
+  text-align: center;
+}
 .contain {
   width: 500vw;
   transition: 0.5s;
@@ -25,6 +53,12 @@ header {
 }
 .inner {
   width: 100vw;
+}
+.btnbox {
+  display: inline;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
 }
 .newsbtn1 {
   background-color: red;
@@ -48,58 +82,23 @@ header {
   border-radius: 10px;
   margin:10px;
 }
-.btnbox {
-  display: inline;
-  position: absolute;
-  bottom: 10px;
-  display: flex;
-}
-.logo {
-  margin-left: 20px;
-  font-family: "Gugi", cursive;
-  line-height: 30px;
-  font-size: 35px;
-}
-.menu {
-  position: absolute;
-  right: 30px;
-  display: flex;
-  flex-direction: row;
-  font-size: 15px;
-  font-family: "Noto Sans KR", sans-serif;
-}
-.menubtn {
-  margin: 10px;
-  margin-top: 0;
-}
-main {
-  margin-top: 60px;
-  height: 5000px;
-}
-.news {
-  position: relative;
-  text-align: center;
-}
-
-
-}
 /* 인터뷰 */
 .intervew {
   padding-top: 50px;
 }
-#i1 {
+#inter1 {
+  padding-top: 20px;
+}
+.i1 {
   white-space: nowrap;
   text-align: center;
   font-size: 25px;
   padding: 40px;
 }
-#n1 {
+.n1 {
   white-space: nowrap;
   text-align: center;
   font-size: 20px;
-}
-#inter1 {
-  padding-top: 20px;
 }
 #inter2 {
   padding-top: 250px;
@@ -129,18 +128,16 @@ main {
   height: 1500px;
   margin-top: 30px;
 }
-.reasonList {
-  height: 1000px;
-  text-align: center;
-  background-color: rgb(201, 71, 0);
-  margin-top: 100px;
-}
 .whytext {
   padding-top: 250px;
   text-align: center;
   font-size: 50px;
 }
-.team {
+.reasonList {
+  height: 1000px;
+  text-align: center;
+  background-color: rgb(201, 71, 0);
+  margin-top: 100px;
 }
 .team2 {
   position: relative;
@@ -148,9 +145,7 @@ main {
   width: 1320px;
   margin: 0 auto;
   overflow:hidden;
-  background-color:gray;
 }
-
 .box1 {
   background-color: rgb(168, 89, 65);
   color: white;
@@ -161,7 +156,6 @@ main {
   float: right;
   border-radius: 50px;
 }
-
 .box2 {
   background-color: rgb(136, 117, 111);
   color: white;
@@ -172,38 +166,20 @@ main {
   float: right;
   border-radius: 50px;
 }
-.box3 {
-  background-color: rgb(136, 117, 111);
-  color: white;
-  width: 600px;
-  height: 400px;
-  padding: 10px;
-  margin: 20px;
-  float: right;
-  border-radius: 50px;
-}
-.box4 {
-  background-color: rgb(168, 89, 65);
-  color: white;
-  width: 600px;
-  height: 400px;
-  padding: 10px;
-  margin: 20px;
-  float: right;
-  border-radius: 50px;
-}
-/* .pro {
-  width: 150px;
-  height: 150px;
-  border-radius: 70%;
+.pro {
+  width: 200px;
+  height: 200px;
   overflow: hidden;
+  float:left;
+  margin:10px;
   position: relative;
 }
 .profile {
   width: 100%;
   height: 100%;
+  border-radius: 70%;
   object-fit: cover;
-} */
+}
 footer {
   background-color: rgb(190, 131, 104);
   color: white;
@@ -212,3 +188,4 @@ footer {
   line-height: 100px;
   font-size: 13px;
   font-family: "Noto Sans KR", sans-serif;
+}
