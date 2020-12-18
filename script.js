@@ -1,37 +1,65 @@
-window.onload = function(){
+window.onload = function () {
     var contain = document.querySelector('.contain');
     var trans = [
-        {'classname':'newsbtn1',
-        'translate':'0'},
-        {'classname':'newsbtn2',
-        'translate':'-100'},
-        {'classname':'newsbtn3',
-        'translate':'-200'},
-        {'classname':'newsbtn4',
-        'translate':'-300'},
-        {'classname':'newsbtn5',
-        'translate':'-400'}
+        {
+            'classname': 'newsbtn1',
+            'translate': '0'
+        },
+        {
+            'classname': 'newsbtn2',
+            'translate': '-100'
+        },
+        {
+            'classname': 'newsbtn3',
+            'translate': '-200'
+        },
+        {
+            'classname': 'newsbtn4',
+            'translate': '-300'
+        },
+        {
+            'classname': 'newsbtn5',
+            'translate': '-400'
+        }
     ]
     var a = 0
     function slid() {
-        if (a<0){
-            a = a -100
-            contain.style.transform = 'translate('+a+'vw)'
-                    }
-        if (a==-400) {
+        if (a < 0) {
+            a = a - 100
+            contain.style.transform = 'translate(' + a + 'vw)'
+        }
+        if (a == -400) {
             contain.style.transform = 'translate(100vw)'
-        }           
-}
-setTimeout(slid,5000)
+        }
+    }
+    setTimeout(slid, 5000)
 
     for (var index in trans) {
         var paragraph = document.createElement("div");
         document.getElementById("btnbox").appendChild(paragraph);
         paragraph.classList.add('newsbtn')
         paragraph.classList.add(trans[index]['classname'])
-        paragraph.addEventListener('click',function(){
-            
-        contain.style.transform = 'translate('+trans[index]['translate']+'vw)'
+        paragraph.addEventListener('click', function () {
+
+            contain.style.transform = 'translate(' + trans[index]['translate'] + 'vw)'
         })
-    }     
+    }
+
+    // 스크롤 이동
+    // function moonsang() {
+    //     window.scrollTo(0, 100);
+    // }
+    // function moonjung() {
+    //     window.scrollTo(0, 400);
+    // }
+    // function moongum() {
+    //     window.scrollTo(0, 700);
+    // }
+    // function teamso() {
+    //     window.scrollTo(0, 1000);
+    // }
+
+    document.querySelector(".moonsang").addEventListener('click', function () {
+        window.scrollTo(0, 1000);
+    })
 }
