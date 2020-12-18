@@ -183,7 +183,7 @@ main {
   float: right;
   border-radius: 50px;
 }
-/* .pro {
+.pro {
   width: 150px;
   height: 150px;
   border-radius: 70%;
@@ -194,7 +194,7 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
-} */
+}
 footer {
   background-color: rgb(190, 131, 104);
   color: white;
