@@ -30,7 +30,6 @@ setTimeout(slid,5000)
         paragraph.classList.add('newsbtn')
         paragraph.classList.add(trans[index]['classname'])
         paragraph.addEventListener('click',function(){
-            
         contain.style.transform = 'translate('+trans[index]['translate']+'vw)'
         })
     }     
