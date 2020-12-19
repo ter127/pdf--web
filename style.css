@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 .inner-container {
   width: 1300px;
   margin: 0 auto;
@@ -341,6 +342,17 @@ main {
   width: 650px;
   height: 360px;
   float: right;
+  font-size: 12px;
+}
+.containBox h1 {
+font-size: 23px;
+margin-bottom: 20px;
+font-family: 'Do Hyeon', sans-serif;
+}
+
+.containBox strong {
+  font-size: 13px;
+
 }
 .box1 {
   background-color: rgb(168, 89, 65);
@@ -363,10 +375,10 @@ main {
   margin: 0 auto;
 }
 .pro {
-  width: 200px;
-  height: 200px;
+  width: 110px;
+  height: 110px;
   overflow: hidden;
-  float: left;
+  float: right;
   margin: 10px;
   position: relative;
 }
