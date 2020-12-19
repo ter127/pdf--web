@@ -339,6 +339,34 @@ main {
 .reasonListelement {
   width: 100vw;
 }
+/* 원인검증 */
+.wongum {
+  margin-bottom: 1200px;
+}
+.w1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+  animation: f1 4s 1;
+  padding-bottom: 100px;
+}
+.wonin {
+  border: 1px solid black;
+  width: 300px;
+  margin-left: 150px;
+}
+.wonins {
+  border: 1px solid black;
+  float: left;
+  font-size:20px;
+  font-family: "Noto Sans KR", sans-serif;
+  width: 400px;
+  height: 100px;
+  padding: 150px 0px;
+}
+.wongraph {
+  border: 1px solid black;
+}
 .teamtitle {
   animation: f1 4s 1;
   font-size: 20px;
@@ -368,7 +396,6 @@ font-family: 'Do Hyeon', sans-serif;
 
 .containBox strong {
   font-size: 13px;
-
 }
 .box1 {
   background-color: rgb(168, 89, 65);
