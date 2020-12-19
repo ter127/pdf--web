@@ -132,6 +132,160 @@ main {
   border: 1px solid black;
   margin: auto;
   margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* 화재 사망률 그래프 */
+.fireDead {
+  box-sizing: border-box;
+  padding: 50px;
+  width: 650px;
+}
+.deafGraphBackground {
+  background: #ccc;
+  height: 40px;
+  border-radius: 40px;
+  text-align: right;
+}
+.deafGraphBackground span {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+  width: 56%;
+  background-color: rgb(150, 59, 36);
+  border-radius: 40px;
+  color: #ccc;
+  padding: 0 10px;
+  box-sizing: border-box;
+  animation: deafch 2s 1;
+}
+@keyframes deafch {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 56%;
+    opacity: 1;
+  }
+}
+.undeafGraphBackground {
+  background: #ccc;
+  height: 40px;
+  border-radius: 40px;
+}
+.undeafGraphBackground span {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+  width: 12%;
+  background-color: rgb(136, 117, 111);
+  border-radius: 40px;
+  color: #ccc;
+  padding: 0 10px;
+  box-sizing: border-box;
+  animation: undeafch 0.5s 1;
+}
+@keyframes undeafch {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 12%;
+    opacity: 1;
+  }
+}
+/* 청각장애 화재대피실패 그래프 */
+.deaffire {
+  box-sizing: border-box;
+  padding: 50px;
+  width: 650px;
+}
+.fail {
+  background: #ccc;
+  height: 40px;
+  border-radius: 40px;
+}
+.fail span {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+  width: 16%;
+  background-color: rgb(136, 117, 111);
+  border-radius: 40px;
+  color: #ccc;
+  padding: 0 10px;
+  box-sizing: border-box;
+  animation: failch 0.5s 1;
+}
+@keyframes failch {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 16%;
+    opacity: 1;
+  }
+}
+.donotknow {
+  background: #ccc;
+  height: 40px;
+  border-radius: 40px;
+}
+.donotknow span {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+  width: 80%;
+  background-color: rgb(150, 59, 36);
+  border-radius: 40px;
+  color: #ccc;
+  padding: 0 10px;
+  box-sizing: border-box;
+  animation: knowch 2s 1;
+}
+@keyframes knowch {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 80%;
+    opacity: 1;
+  }
+}
+.gitar {
+  background: #ccc;
+  height: 40px;
+  border-radius: 40px;
+}
+.gitar span {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+  width: 8%;
+  background-color: rgb(136, 117, 111);
+  border-radius: 40px;
+  color: #ccc;
+  padding: 0 10px;
+  box-sizing: border-box;
+  animation: gitarch 0.5s;
+}
+@keyframes gitarch {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 /* false */
 .false {
@@ -221,7 +375,7 @@ main {
   object-fit: cover;
 }
 footer {
-  background-color: rgb(190, 131, 104);
+  background-color: rgb(136, 117, 111);
   color: white;
   height: 100px;
   text-align: center;

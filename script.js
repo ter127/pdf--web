@@ -46,7 +46,6 @@ window.onload = function () {
     var contain = document.querySelector('.contain');
     document.querySelector('.newsbtn1').addEventListener('click',function(){
         contain.style.transform = 'translate(0)'
-        
     })
     document.querySelector('.newsbtn2').addEventListener('click',function(){
         contain.style.transform = 'translate(-1300px)'
@@ -83,16 +82,10 @@ window.onload = function () {
             contain.style.transform = 'translate('+a+'px)'
         }
         },5000)    
-        
-        
-        // var reasonmove = 0
-        // var reasonList = document.querySelector(".reasonList")
-        // if (reasonmove > 0) {
-        //     reasonmove = reasonmove + 100
-        //     reasonList.style.transform = 'translate('+reasonmove+'vw)';}
-        // if (reasonmove < -300) {
-        //         reasonmove = reasonmove - 100
-        //         reasonList.style.transform = 'translate('+reasonmove+'vw)';}
-
+        $("document").ready(function() {  
+            $(window).scroll(function() {  
+                    var position = $(window).scrollTop(); // 현재 스크롤바의 위치값을 반환합니다.  
+            });   
+        }); 
 
 }
