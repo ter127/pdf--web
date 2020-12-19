@@ -301,7 +301,7 @@ main {
   font-family: "Noto Sans KR", sans-serif;
 }
 #f2 {
-  padding-top: 200px;
+  padding-top: 350px;
   font-size: 30px;
   font-family: "Noto Sans KR", sans-serif;
 }
@@ -309,7 +309,8 @@ main {
   margin-top: 30px;
 }
 .whytext {
-  padding-top: 250px;
+  padding-top: 450px;
+  padding-bottom: 300px;
   text-align: center;
   font-size: 50px;
   font-family: "Noto Sans KR", sans-serif;
