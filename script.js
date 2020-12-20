@@ -3,6 +3,7 @@ window.onload = function () {
     var mb2 = document.getElementById('mb2')
     var mb3 = document.getElementById('mb3')
     var mb4 = document.getElementById('mb4')
+    var a = 0
     mb1.addEventListener('mouseover', function () {
         mb1.style.color = "rgb(137, 137, 209)";
         mb1.style.fontSize = "17px";
@@ -34,15 +35,7 @@ window.onload = function () {
             mb4.style.color = "white";
             mb4.style.fontSize = "15px";
         });
-        setInterval(function () {
-            if (-5200 < a) {
-                a = a - 1300
-                contain.style.transform = 'translate(' + a + 'px)'
-            }
-        }, 5000)
     });
-
-
     var contain = document.querySelector('.contain');
     document.querySelector('.newsbtn1').addEventListener('click', function () {
         contain.style.transform = 'translate(0)'
@@ -74,9 +67,7 @@ window.onload = function () {
     document.getElementById("mb4").addEventListener('click', function () {
         window.scrollTo(0, 7600);
     })
-
     setInterval(function () {
-        var a = 0
         if (-5200 < a) {
             a = a - 1300
             contain.style.transform = 'translate(' + a + 'px)'
