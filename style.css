@@ -333,7 +333,7 @@ main {
 }
 .reasonList {
   text-align: center;
-  margin: 100px auto;
+  /* margin: 100px auto; */
   height: 800px;
   width: 5400px;
   display: flex;
