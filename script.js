@@ -82,10 +82,4 @@ window.onload = function () {
             contain.style.transform = 'translate(' + a + 'px)'
         }
     }, 5000)
-    $("document").ready(function () {
-        $(window).scroll(function () {
-            var position = $(window).scrollTop(); // 현재 스크롤바의 위치값을 반환합니다.  
-        });
-    });
-
 }

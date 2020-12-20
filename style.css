@@ -478,3 +478,16 @@ footer {
   font-size: 13px;
   font-family: "Noto Sans KR", sans-serif;
 }
+
+#testbutton {
+  position: fixed;
+  bottom: 0px;
+  width: 100px;
+  background-color: blue;
+}
+.trt {
+  animation: silhum 10s 9999999;
+}
+.text-animation {
+  animation: f1 4s 1;
+}
