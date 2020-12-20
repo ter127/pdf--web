@@ -69,10 +69,10 @@ window.onload = function () {
         window.scrollTo(0, 2660);
     })
     document.getElementById("mb3").addEventListener('click', function () {
-        window.scrollTo(0, 0);
+        window.scrollTo(0, 4600);
     })
     document.getElementById("mb4").addEventListener('click', function () {
-        window.scrollTo(0, 0);
+        window.scrollTo(0, 7600);
     })
 
     setInterval(function () {

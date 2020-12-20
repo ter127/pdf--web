@@ -320,6 +320,8 @@ main {
 }
 .why {
   margin-top: 30px;
+  width: 1600px;
+  margin: 100px auto;
 }
 .whytext {
   animation: f1 4s 1;
@@ -330,14 +332,28 @@ main {
   font-family: "Noto Sans KR", sans-serif;
 }
 .reasonList {
-  width: 300vw;
   text-align: center;
   margin: 100px auto;
+  height: 800px;
+  width: 5400px;
   display: flex;
   flex-direction: row;
+  animation: silhum 10s 9999999;
 }
 .reasonListelement {
-  width: 100vw;
+  width: 1600px;
+  height: 800px;
+}
+@keyframes silhum {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(-3200px);
+  }
+  100% {
+    transform: translate(0);
+  }
 }
 /* 원인검증 */
 .wongum {
