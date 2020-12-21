@@ -110,7 +110,7 @@ main {
   padding-top: 20px;
 }
 #inter1 {
-    padding-top: 130px;
+  padding-top: 130px;
 }
 .i1 {
   white-space: nowrap;
@@ -165,7 +165,6 @@ main {
   color: #ccc;
   padding: 0 10px;
   box-sizing: border-box;
-  animation: deafch 2s 1;
 }
 @keyframes deafch {
   0% {
@@ -193,7 +192,6 @@ main {
   color: #ccc;
   padding: 0 10px;
   box-sizing: border-box;
-  animation: undeafch 0.5s 1;
 }
 @keyframes undeafch {
   0% {
@@ -227,7 +225,6 @@ main {
   color: #ccc;
   padding: 0 10px;
   box-sizing: border-box;
-  animation: failch 0.5s 1;
 }
 @keyframes failch {
   0% {
@@ -255,7 +252,6 @@ main {
   color: #ccc;
   padding: 0 10px;
   box-sizing: border-box;
-  animation: knowch 2s 1;
 }
 @keyframes knowch {
   0% {
@@ -283,7 +279,6 @@ main {
   color: #ccc;
   padding: 0 10px;
   box-sizing: border-box;
-  animation: gitarch 0.5s;
 }
 @keyframes gitarch {
   0% {
@@ -480,5 +475,5 @@ footer {
   animation: silhum 30s 9999999;
 }
 .text-animation {
-  animation: f1 1s 1;
+  animation: f1 2s 1;
 }

@@ -71,9 +71,40 @@ window.onload = function () {
             contain.style.transform = 'translate(' + a + 'px)'
         }
     }, 5000)
+    function ani(id) {
+        document.querySelector(id).classList.add('text-animation')
+    }
+    function graph(id,ani){
+        document.getElementById(id).style.animation = ani
+        document.getElementById(id).style.animationFillMode = 'forwards'
+    }
     window.addEventListener('scroll', function () {
         var nowScroll = document.documentElement.scrollTop;
         document.querySelector('.testbtn').innerHTML = nowScroll;
-        if (nowScroll < 3400) { document.querySelector('#test').classList.add('trt') }
+        if (nowScroll > 3000) { document.querySelector('#test').classList.add('trt') }
+        if (nowScroll > 190) {ani('#inter1')}
+        if (nowScroll > 470) {ani('#inter2')}
+        if (nowScroll > 750) {ani('#inter3')}
+        if (nowScroll > 1650) {ani('#f1')}
+        if (nowScroll > 2020) {ani('#f2')}
+        if (nowScroll > 2580) {ani('#r1')}
+        if (nowScroll > 3825) {ani('#w1')}
+        if (nowScroll > 4300) {ani('#w2')}
+        if (nowScroll > 4760) {ani('#w3')}
+        if (nowScroll > 5240) {ani('#w4')}
+        if (nowScroll > 5700) {ani('#w5')}
+        if (nowScroll > 5800) {ani('#w6')}
+        if (nowScroll > 6250) {ani('#w7')}
+        if (nowScroll > 6360) {ani('#w8')}
+        if (nowScroll > 6870) {ani('#w9')}
+        if (nowScroll > 6950) {ani('#w10')}
+        if (nowScroll > 1000) {ani('#graph')}
+        if (nowScroll > 1120) {
+            graph('deafGraphBackground','deafch 2s 1')
+            graph('undeafGraphBackground','undeafch 0.5s 1')
+            graph('fail','failch 0.5s 1')
+            graph('donotknow','knowch 2s 1')
+            graph('gitar','gitarch 0.5s')
+        }
     })
 }
