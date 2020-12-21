@@ -136,7 +136,6 @@ main {
 .graph {
   height: 500px;
   width: 1300px;
-  border: 1px solid black;
   margin: auto;
   margin-top: 100px;
   display: flex;
@@ -339,7 +338,7 @@ main {
   width: 5400px;
   display: flex;
   flex-direction: row;
-  animation: silhum 15s 9999999;
+  animation: silhum 30s 9999999;
 }
 .reasonListelement {
   width: 1600px;
