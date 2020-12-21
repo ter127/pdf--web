@@ -80,7 +80,6 @@ window.onload = function () {
     }
     window.addEventListener('scroll', function () {
         var nowScroll = document.documentElement.scrollTop;
-        document.querySelector('.testbtn').innerHTML = nowScroll;
         if (nowScroll > 3000) { document.querySelector('#test').classList.add('trt') }
         if (nowScroll > 190) {ani('#inter1')}
         if (nowScroll > 470) {ani('#inter2')}
