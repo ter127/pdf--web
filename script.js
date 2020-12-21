@@ -4,6 +4,7 @@ window.onload = function () {
     var mb3 = document.getElementById('mb3')
     var mb4 = document.getElementById('mb4')
     var a = 0
+    
     mb1.addEventListener('mouseover', function () {
         mb1.style.color = "rgb(137, 137, 209)";
         mb1.style.fontSize = "17px";
@@ -51,9 +52,6 @@ window.onload = function () {
     })
     document.querySelector('.newsbtn5').addEventListener('click', function () {
         contain.style.transform = 'translate(-5200px)'
-    })
-    document.getElementById("logo").addEventListener('click', function () {
-        window.scrollTo(0, 0);
     })
     document.getElementById("mb1").addEventListener('click', function () {
         window.scrollTo(0, 870);
