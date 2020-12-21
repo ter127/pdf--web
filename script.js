@@ -72,3 +72,4 @@ window.onload = function () {
         }
     }, 5000)
 }
+jQuery(document).ready(function($){/*코드*/});
