@@ -110,8 +110,7 @@ main {
   padding-top: 20px;
 }
 #inter1 {
-  animation: f1 4s 1;
-  padding-top: 130px;
+    padding-top: 130px;
 }
 .i1 {
   white-space: nowrap;
@@ -128,10 +127,8 @@ main {
 }
 #inter2 {
   padding-top: 150px;
-  animation: f1 4s 1;
 }
 #inter3 {
-  animation: f1 4s 1;
   padding-top: 150px;
   padding-bottom: 100px;
 }
@@ -305,7 +302,6 @@ main {
 #f1 {
   font-size: 30px;
   font-family: "Noto Sans KR", sans-serif;
-  animation: f1 4s 1;
 }
 @keyframes f1 {
   0% {
@@ -316,7 +312,6 @@ main {
   }
 }
 #f2 {
-  animation: f1 4s 1;
   padding-top: 350px;
   font-size: 30px;
   font-family: "Noto Sans KR", sans-serif;
@@ -327,7 +322,6 @@ main {
   margin: 100px auto;
 }
 .whytext {
-  animation: f1 4s 1;
   padding-top: 450px;
   padding-bottom: 300px;
   text-align: center;
@@ -365,7 +359,6 @@ main {
   text-align: center;
   font-size: 30px;
   font-family: "Gothic A1", sans-serif;
-  animation: f1 4s 1;
   padding-bottom: 100px;
 }
 .wonin {
@@ -376,7 +369,6 @@ main {
   display: flex;
   margin-bottom: 80px;
   flex-direction: row;
-  animation: f1 4s 1;
 }
 .wonins {
   font-size: 24px;
@@ -396,16 +388,13 @@ main {
   text-align: center;
   font-size: 36px;
   width: 100%;
-  animation: f1 4s 1;
   font-family: "Gothic A1", sans-serif;
 }
 .frontgl {
   text-align: center;
   font-size: 30px;
-  animation: f1 4s 1;
 }
 .teamtitle {
-  animation: f1 4s 1;
   font-size: 30px;
   font-family: "Gothic A1", sans-serif;
   width: 900px;
@@ -443,9 +432,6 @@ main {
   border-radius: 50px;
   box-sizing: border-box;
   margin: auto;
-}
-.animation {
-  animation: f1 4s 1;
 }
 .box2 {
   background-color: rgb(136, 117, 111);
@@ -494,5 +480,5 @@ footer {
   animation: silhum 30s 9999999;
 }
 .text-animation {
-  animation: f1 4s 1;
+  animation: f1 1s 1;
 }

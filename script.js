@@ -4,7 +4,7 @@ window.onload = function () {
     var mb3 = document.getElementById('mb3')
     var mb4 = document.getElementById('mb4')
     var a = 0
-    
+
     mb1.addEventListener('mouseover', function () {
         mb1.style.color = "rgb(137, 137, 209)";
         mb1.style.fontSize = "17px";
@@ -71,11 +71,9 @@ window.onload = function () {
             contain.style.transform = 'translate(' + a + 'px)'
         }
     }, 5000)
-    window.addEventListener('scroll', function(){
+    window.addEventListener('scroll', function () {
         var nowScroll = document.documentElement.scrollTop;
-        console.log(nowScroll)
         document.querySelector('.testbtn').innerHTML = nowScroll;
-        if(nowScroll > 3400)
-        {document.querySelector('#test').classList.add('trt')}
+        if (nowScroll < 3400) { document.querySelector('#test').classList.add('trt') }
     })
 }
