@@ -380,8 +380,10 @@ main {
   animation: f1 4s 1;
 }
 .wonins {
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 30px;
   font-family: "Noto Sans KR", sans-serif;
+
   width: 800px;
   padding: 150px 0px;
   flex-grow: 1;
