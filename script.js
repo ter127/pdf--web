@@ -71,5 +71,11 @@ window.onload = function () {
             contain.style.transform = 'translate(' + a + 'px)'
         }
     }, 5000)
+    window.addEventListener('scroll', function(){
+        var nowScroll = document.documentElement.scrollTop;
+        console.log(nowScroll)
+        document.querySelector('.testbtn').innerHTML = nowScroll;
+        if(nowScroll > 3400)
+        {document.querySelector('#test').classList.add('trt')}
+    })
 }
-jQuery(document).ready(function($){/*코드*/});
