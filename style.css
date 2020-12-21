@@ -459,11 +459,11 @@ main {
   margin: 0 auto;
 }
 .pro {
-  width: 110px;
-  height: 110px;
+  width: 140px;
+  height: 135px;
   overflow: hidden;
   float: right;
-  margin: 10px;
+  margin: 0px;
   position: relative;
 }
 .profile {
