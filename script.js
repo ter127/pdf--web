@@ -6,14 +6,14 @@ window.onload = function () {
     var a = 0
 
     mb1.addEventListener('mouseover', function () {
-        mb1.style.color = "rgb(137, 137, 209)";
+        mb1.style.color = "rgb(50, 59, 36)";
         mb1.style.fontSize = "17px";
         mb1.addEventListener('mouseout', function () {
             mb1.style.color = "white";
             mb1.style.fontSize = "15px";
         });
         mb2.addEventListener('mouseover', function () {
-            mb2.style.color = "rgb(137, 137, 209)";
+            mb2.style.color = "rgb(50, 59, 36)";
             mb2.style.fontSize = "17px";
         });
         mb2.addEventListener('mouseout', function () {
@@ -21,7 +21,7 @@ window.onload = function () {
             mb2.style.fontSize = "15px";
         });
         mb3.addEventListener('mouseover', function () {
-            mb3.style.color = "rgb(137, 137, 209)";
+            mb3.style.color = "rgb(50, 59, 36)";
             mb3.style.fontSize = "17px";
         });
         mb3.addEventListener('mouseout', function () {
@@ -29,7 +29,7 @@ window.onload = function () {
             mb3.style.fontSize = "15px";
         });
         mb4.addEventListener('mouseover', function () {
-            mb4.style.color = "rgb(137, 137, 209)";
+            mb4.style.color = "rgb(50, 59, 36)";
             mb4.style.fontSize = "17px";
         });
         mb4.addEventListener('mouseout', function () {
