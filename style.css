@@ -57,7 +57,7 @@ main {
   margin: 0 auto;
 }
 .contain {
-  width: 6500px;
+  width: 7800px;
   transition: 0.5s;
   display: flex;
 }
@@ -99,6 +99,13 @@ main {
   margin: 10px;
 }
 .newsbtn5 {
+  background-color: rgb(131, 131, 131);
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.newsbtn6 {
   background-color: rgb(131, 131, 131);
   width: 15px;
   height: 15px;

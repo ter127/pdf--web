@@ -53,6 +53,9 @@ window.onload = function () {
     document.querySelector('.newsbtn5').addEventListener('click', function () {
         contain.style.transform = 'translate(-5200px)'
     })
+    document.querySelector('.newsbtn6').addEventListener('click', function () {
+        contain.style.transform = 'translate(-6500px)'
+    })
     document.getElementById("mb1").addEventListener('click', function () {
         window.scrollTo(0, 870);
     })
@@ -66,7 +69,7 @@ window.onload = function () {
         window.scrollTo(0, 7600);
     })
     setInterval(function () {
-        if (-5200 < a) {
+        if (-6500 < a) {
             a = a - 1300
             contain.style.transform = 'translate(' + a + 'px)'
         }
