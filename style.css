@@ -480,6 +480,7 @@ footer {
 }
 .trt {
   animation: silhum 30s 9999999;
+  animation-timing-function: linear;
 }
 .text-animation {
   animation: f1 2s 1;
